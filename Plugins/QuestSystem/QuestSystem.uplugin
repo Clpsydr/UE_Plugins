@@ -1,0 +1,36 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "QuestSystem",
+	"Description": "Basic objective system",
+	"Category": "Other",
+	"CreatedBy": "me",
+	"CreatedByURL": "",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"CanContainContent": true,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "QuestSystem",
+			"Type": "Runtime",
+			"LoadingPhase": "Predefault"
+		},
+		{
+
+			"Name": "QuestNpcManage",
+			"Type": "Editor",
+			"LoadingPhase": "Default"
+		},
+		{
+
+			"Name": "QuestEditor",
+			"Type": "Editor",
+			"LoadingPhase": "Default"
+		}
+	]
+}
